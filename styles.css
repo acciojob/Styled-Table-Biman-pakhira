@@ -1,1 +1,44 @@
-/* your code */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 1400px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+thead th {
+    background: #1f5587;
+    color: #ffffff;
+    padding: 18px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+tbody td {
+    padding: 22px;
+    font-size: 20px;
+    color: #333;
+}
+
+.gray {
+    background: #e2e2e2;
+}
+
+tbody tr td:first-child {
+    font-weight: 600;
+    font-size: 22px;
+}
